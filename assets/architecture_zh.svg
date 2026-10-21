@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#120c0a"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#211812"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="480" rx="16" fill="url(#bgGrad)"/>
+  <rect x="1" y="1" width="1198" height="478" rx="15" fill="none" stroke="#334155" stroke-width="1"/>
+
+  <text x="600" y="45" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="20" font-weight="700" fill="#f8fafc" text-anchor="middle">大厂顾问式销售五步法与跨界说服四步架构</text>
+  <text x="600" y="70" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" fill="#94a3b8" text-anchor="middle">基于腾讯 10年销售专家 Nick 亲授 · KP决策链挖掘 · 顾问式五步法 · 异议拆弹谈判 · 跨部门资源撬动</text>
+
+  <!-- Step 1 -->
+  <g transform="translate(40, 100)" filter="url(#shadow)">
+    <rect width="250" height="320" rx="12" fill="url(#cardGrad)" stroke="#f59e0b" stroke-width="1.5"/>
+    <rect x="0" y="0" width="250" height="6" rx="3" fill="#f59e0b"/>
+    <circle cx="36" cy="36" r="16" fill="#d97706"/>
+    <text x="36" y="42" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">01</text>
+    <text x="64" y="34" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff">KP决策链诊断</text>
+    <text x="64" y="52" font-family="sans-serif" font-size="11" fill="#f59e0b">DECISION MAPPING</text>
+    <line x1="20" y1="70" x2="230" y2="70" stroke="#334155" stroke-width="1"/>
+    
+    <text x="20" y="95" font-family="sans-serif" font-size="13" font-weight="bold" fill="#e2e8f0">🎯 搞清谁说了算，对齐 KPI</text>
+    <text x="20" y="125" font-family="sans-serif" font-size="12" fill="#94a3b8">• 绘制组织决策树：决策人/把关人/使用者</text>
+    <text x="20" y="150" font-family="sans-serif" font-size="12" fill="#94a3b8">• 摸清核心痛点：对方当期被什么卡脖子</text>
+    <text x="20" y="175" font-family="sans-serif" font-size="12" fill="#94a3b8">• 识别隐藏顾虑：谁可能因为变革受损</text>
+    <text x="20" y="200" font-family="sans-serif" font-size="12" fill="#94a3b8">• 拒绝无脑扫街，精准锚定首要战役</text>
+    
+    <rect x="20" y="235" width="210" height="65" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <text x="30" y="258" font-family="sans-serif" font-size="11" fill="#f59e0b">💡 Nick 实战心法</text>
+    <text x="30" y="280" font-family="sans-serif" font-size="11" fill="#cbd5e1">“跟拍不了板的人磨磨唧唧谈三个月，不如花三天摸透真正决策人的核心痛点。”</text>
+  </g>
+
+  <!-- Step 2 -->
+  <g transform="translate(330, 100)" filter="url(#shadow)">
+    <rect width="250" height="320" rx="12" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1.5"/>
+    <rect x="0" y="0" width="250" height="6" rx="3" fill="#38bdf8"/>
+    <circle cx="36" cy="36" r="16" fill="#0284c7"/>
+    <text x="36" y="42" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">02</text>
+    <text x="64" y="34" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff">顾问式销售五步法</text>
+    <text x="64" y="52" font-family="sans-serif" font-size="11" fill="#38bdf8">5-STEP CONSULTATIVE</text>
+    <line x1="20" y1="70" x2="230" y2="70" stroke="#334155" stroke-width="1"/>
+    
+    <text x="20" y="95" font-family="sans-serif" font-size="13" font-weight="bold" fill="#e2e8f0">🚀 鹅厂销售核心推进动线</text>
+    <text x="20" y="125" font-family="sans-serif" font-size="12" fill="#94a3b8">• 破冰建信：先做人后做事，利他先行</text>
+    <text x="20" y="150" font-family="sans-serif" font-size="12" fill="#94a3b8">• 提问挖掘：用 SPIN 模型问出真实诉求</text>
+    <text x="20" y="175" font-family="sans-serif" font-size="12" fill="#94a3b8">• 价值匹配：把产品特性翻译成对方利益</text>
+    <text x="20" y="200" font-family="sans-serif" font-size="12" fill="#94a3b8">• 缔结成交：设计无法拒绝的最小试点</text>
+    
+    <rect x="20" y="235" width="210" height="65" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <text x="30" y="258" font-family="sans-serif" font-size="11" fill="#38bdf8">💡 Nick 实战心法</text>
+    <text x="30" y="280" font-family="sans-serif" font-size="11" fill="#cbd5e1">“销售不是嘴皮子溜，顶级的销售是站在客户身边的顾问，帮他诊断并拿结果。”</text>
+  </g>
+
+  <!-- Step 3 -->
+  <g transform="translate(620, 100)" filter="url(#shadow)">
+    <rect width="250" height="320" rx="12" fill="url(#cardGrad)" stroke="#f43f5e" stroke-width="1.5"/>
+    <rect x="0" y="0" width="250" height="6" rx="3" fill="#f43f5e"/>
+    <circle cx="36" cy="36" r="16" fill="#e11d48"/>
+    <text x="36" y="42" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">03</text>
+    <text x="64" y="34" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff">异议拆弹与谈判</text>
+    <text x="64" y="52" font-family="sans-serif" font-size="11" fill="#f43f5e">OBJECTION HANDLING</text>
+    <line x1="20" y1="70" x2="230" y2="70" stroke="#334155" stroke-width="1"/>
+    
+    <text x="20" y="95" font-family="sans-serif" font-size="13" font-weight="bold" fill="#e2e8f0">💣 异议才是真正成交的起点</text>
+    <text x="20" y="125" font-family="sans-serif" font-size="12" fill="#94a3b8">• 拆解价格阻抗：拆解 TCO 全生命周期成本</text>
+    <text x="20" y="150" font-family="sans-serif" font-size="12" fill="#94a3b8">• 拆解信任阻抗：提供同类标杆背书与实测</text>
+    <text x="20" y="175" font-family="sans-serif" font-size="12" fill="#94a3b8">• 拆解惯性阻抗：极低迁移成本与无忧保底</text>
+    <text x="20" y="200" font-family="sans-serif" font-size="12" fill="#94a3b8">• 情绪软着陆：先共情肯定，再换角推演</text>
+    
+    <rect x="20" y="235" width="210" height="65" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <text x="30" y="258" font-family="sans-serif" font-size="11" fill="#f43f5e">💡 Nick 实战心法</text>
+    <text x="30" y="280" font-family="sans-serif" font-size="11" fill="#cbd5e1">“嫌货才是买货人。客户提出异议证明他在认真考虑，接住异议就是收单之时。”</text>
+  </g>
+
+  <!-- Step 4 -->
+  <g transform="translate(910, 100)" filter="url(#shadow)">
+    <rect width="250" height="320" rx="12" fill="url(#cardGrad)" stroke="#10b981" stroke-width="1.5"/>
+    <rect x="0" y="0" width="250" height="6" rx="3" fill="#10b981"/>
+    <circle cx="36" cy="36" r="16" fill="#059669"/>
+    <text x="36" y="42" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">04</text>
+    <text x="64" y="34" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff">跨部门资源撬动</text>
+    <text x="64" y="52" font-family="sans-serif" font-size="11" fill="#10b981">INTERNAL COLLABORATION</text>
+    <line x1="20" y1="70" x2="230" y2="70" stroke="#334155" stroke-width="1"/>
+    
+    <text x="20" y="95" font-family="sans-serif" font-size="13" font-weight="bold" fill="#e2e8f0">🤝 把内部合作方当核心客户</text>
+    <text x="20" y="125" font-family="sans-serif" font-size="12" fill="#94a3b8">• 研发/设计/法务的利益动机解码</text>
+    <text x="20" y="150" font-family="sans-serif" font-size="12" fill="#94a3b8">• “帮对方拿成果”的利益捆绑机制</text>
+    <text x="20" y="175" font-family="sans-serif" font-size="12" fill="#94a3b8">• 借势与立项：用大战略包裹小需求</text>
+    <text x="20" y="200" font-family="sans-serif" font-size="12" fill="#94a3b8">• 打造在复杂大厂组织里的破局通用影响力</text>
+    
+    <rect x="20" y="235" width="210" height="65" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <text x="30" y="258" font-family="sans-serif" font-size="11" fill="#10b981">💡 Nick 实战心法</text>
+    <text x="30" y="280" font-family="sans-serif" font-size="11" fill="#cbd5e1">“谁能让内部协同团队最先吃到甜头、拿到绩效，谁就能调动最多的王牌资源。”</text>
+  </g>
+</svg>

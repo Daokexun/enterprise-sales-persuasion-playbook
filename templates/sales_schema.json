@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SalesPersuasionDossier",
+  "type": "object",
+  "properties": {
+    "kp_mapping": {
+      "type": "object",
+      "properties": {
+        "economic_buyer": {
+          "type": "string"
+        },
+        "technical_gatekeeper": {
+          "type": "string"
+        },
+        "core_pain_point": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "economic_buyer",
+        "technical_gatekeeper",
+        "core_pain_point"
+      ]
+    },
+    "value_proposition_pitch": {
+      "type": "string"
+    },
+    "objection_handling_plan": {
+      "type": "string"
+    },
+    "persuasion_readiness_score": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    }
+  },
+  "required": [
+    "kp_mapping",
+    "value_proposition_pitch",
+    "objection_handling_plan",
+    "persuasion_readiness_score"
+  ]
+}

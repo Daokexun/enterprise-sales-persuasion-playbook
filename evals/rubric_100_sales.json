@@ -1,0 +1,27 @@
+{
+  "title": "Consultative Sales & Persuasion 100-Point Rubric",
+  "total_points": 100,
+  "passing_grade": 85,
+  "dimensions": [
+    {
+      "dimension": "Decision-Maker Topology & Empathy",
+      "weight": 25,
+      "criteria": "Accurately maps Economic Buyer vs Gatekeeper vs User. Identifies real KPI stakes."
+    },
+    {
+      "dimension": "Consultative 5-Step Value Alignment",
+      "weight": 25,
+      "criteria": "Translates features into client business payoffs. Avoids self-centered feature dumping."
+    },
+    {
+      "dimension": "Objection Defusing & Negotiation Agility",
+      "weight": 25,
+      "criteria": "Reframes price, legacy inertia, and delay objections into structured trial closures."
+    },
+    {
+      "dimension": "Cross-Functional Collaboration Leverage",
+      "weight": 25,
+      "criteria": "Aligns internal stakeholder incentives (Tech, Legal, Ops) so all win collectively."
+    }
+  ]
+}
