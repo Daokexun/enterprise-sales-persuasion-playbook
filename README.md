@@ -48,7 +48,7 @@ Modeled after modern SaaS resource centers and enterprise collaboration framewor
 The following diagram illustrates the complete deal lifecycle from discovery to cross-functional realization:
 
 <div align="center">
-  <img src="assets/architecture.svg" alt="System Architecture Diagram" width="100%" />
+  <img src="assets/architecture.png" alt="System Architecture Diagram" width="100%" />
 </div>
 
 ---

@@ -48,7 +48,7 @@
 下图展示了从商机线索输入到最终成单与跨部门交付的完整闭环流程：
 
 <div align="center">
-  <img src="assets/architecture_zh.svg" alt="业务系统架构图" width="100%" />
+  <img src="assets/architecture_zh.png" alt="业务系统架构图" width="100%" />
 </div>
 
 ---
