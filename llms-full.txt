@@ -1,0 +1,19 @@
+# Consultative Enterprise Sales Playbook (Full Specification)
+
+## 1. Stakeholder 4-Role Matrix
+- Economic Buyer (EB): Owns P&L and veto power; focuses on top-line revenue, bottom-line cost reduction, and shareholder metrics.
+- User Buyer (UB): Operates the product daily; focuses on ease-of-use, developer experience, and personal workload reduction.
+- Technical Buyer (TB): Infosec, compliance, and enterprise architects; focuses on data privacy, uptime SLAs, and technical risk mitigation.
+- Coach (Internal Champion): Provides unvarnished insights into internal politics, competitor moves, and latent budget dynamics.
+
+## 2. 5-Step Consultative Discovery Framework
+1. Step 1 (Rapport & Provocation): Establish status as an industry peer, challenging assumptions with provocative insights.
+2. Step 2 (Latent Pain Uncovering): Move beyond stated surface issues to unstated business liabilities and Cost of Inaction (COI).
+3. Step 3 (Value Reframing): Re-anchor from commodity product features to strategic organizational transformation.
+4. Step 4 (Solution Co-Creation): Frame technical proposals as collaborative internal initiatives rather than external pitches.
+5. Step 5 (Mutual Action Plan): Establish agreed-upon milestones leading to signature, procurement, and deployment.
+
+## 3. High-Stakes Objection Defense Protocols
+- In-House Engineering: Reframe developer maintenance burden into high-value product feature roadmap capacity.
+- Competitor Discounting: Re-anchor price per license to 3-year Total Cost of Ownership (TCO) and outage risk insurance.
+- CFO Budget Freezes: Propose self-funding pilot milestones that demonstrate immediate cost savings within the current fiscal period.

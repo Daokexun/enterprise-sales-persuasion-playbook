@@ -7,9 +7,18 @@
 <img src="assets/hero_poster_zh.jpg" alt="大客户顾问式销售与跨部门说服实战" width="100%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.06);" />
 
 # 大客户顾问式销售与跨部门说服实战
-### Enterprise Consultative Sales & Cross-Functional Persuasion Playbook
+### Consultative Enterprise Sales & Persuasion Playbook
 
-**沉淀自腾讯 10 年一线销售业务负责人 Nick 实战手记 · 面向 B2B 大客户拓展与复杂跨部门协同**
+**沉淀自腾讯 10 年一线销售业务负责人 Nick 实战心法 · 穿透企业复杂决策链，化解百亿级高压异议与撬动产研共赢**
+
+<p align="center">
+  <a href="https://github.com/Daokexun/enterprise-sales-persuasion-playbook/stargazers"><img src="https://img.shields.io/github/stars/Daokexun/enterprise-sales-persuasion-playbook?style=flat-square&logo=github&color=black" alt="GitHub Stars"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License"></a>
+  <a href="llms.txt"><img src="https://img.shields.io/badge/Claude%20Code-Skill%20Ready-EAB308?style=flat-square&logo=anthropic" alt="Claude Code Ready"></a>
+  <a href="cli/objection_simulator.py"><img src="https://img.shields.io/badge/CLI-Objection%20Lab-38BDF8?style=flat-square&logo=python" alt="CLI Simulator"></a>
+  <a href="cheatsheets/meddppicc_deal_matrix.svg"><img src="https://img.shields.io/badge/Matrix-Printable%20SVG-orange?style=flat-square" alt="Deal Matrix"></a>
+  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"></a>
+</p>
 
 </div>
 
@@ -17,29 +26,42 @@
 
 ### 📖 导读与实战背景
 
-> **“顶级销售的核心本领不是‘能说会道’，而是商业洞察、理解人性与穿透组织阻力。把客户异议变成方案升级的契机，把公司内部产研变成最可靠的后盾。”**  
-> —— Nick（腾讯 10 年资深销售业务负责人）
+> **“大客户销售不是去推销产品功能，而是帮客户的业务负责人赢得他的内部政治与商业目标。”**  
+> —— Nick · 腾讯 10 年一线销售业务负责人（鹅厂卧谈会 EP14）
 
-在企业级 B2B 销售与跨团队推动中，绝大多数业务人员往往陷入三个致命误区：
+在百亿级大客户成单与复杂组织协同中，销售、售前架构师与商务团队往往深陷三大瓶颈：
 
-1. **错把“热络”当进展**：和对接人（User）聊得火热，却从未接触过真正握有签字权与预算权的经济决策者（Economic Buyer），项目在最终采购流程被一票否决；
-2. **错把“参数推销”当解决方案**：一进会议室就打开 50 页 PPT 狂讲产品功能，完全没有摸清客户当期最重要的 KPI、财务压力与业务痛点；
-3. **错把“产研协同”当简单提需**：遇到客户定制化要求，直接把需求甩给产研，被一句“排期满了”顶回后两头抱怨，陷入孤军奋战。
+1. **“推销产品，见不到拍板人”**：只懂罗列产品功能参数，找不到经济买家（EB）的真实诉求，困死在基层技术采购流程中；
+2. **“异议面前手足无措”**：面对客户“自研系统已够用”、“友商报价便宜40%”、“集团预算全部冻结”等极限施压时，只会打折让利；
+3. **“跨部门协同内耗严重”**：把内部研发和产品团队当“下包外包”，缺乏利益捆绑与标杆示范机制，导致交付卡点频发。
 
-本手册摒弃空洞的推销话术，完整复盘百亿级大客户成单方法论，建立从**关键决策人识别、顾问式 5 步诊断、高压异议化解到撬动内部产研**的完整作战体系。
+本手册源于腾讯 10 年大客户销售老兵的实战沉淀，系统拆解**决策链穿透画像、顾问式 5 步诊断法、核心异议化解矩阵与跨部门产研协同协议**，助力攻克大体量商业单。
+
+---
+
+### ⚡ 15 秒开箱实测 CLI
+
+本地无需繁琐配置，终端直接体验三大高压异议的攻防推演：
+
+```bash
+# 1. 克隆代码仓库
+git clone https://github.com/Daokexun/enterprise-sales-persuasion-playbook.git
+cd enterprise-sales-persuasion-playbook
+
+# 2. 运行对比评测：普通推销让利 vs 顾问式专家重锚商业代价
+python cli/objection_simulator.py --simulate-objection
+```
 
 ---
 
 ### 🏛️ 四大核心支柱 (Core Capabilities)
 
-参考 Dropbox 资源中心与企业协作设计规范，本系统划分为 4 个标准作业模块：
-
 | 模块 | 核心解决问题 | 一线实战落地打法 |
 | :--- | :--- | :--- |
-| **01 决策链穿透画像**<br>`prompts/01_kp_decision_mapping.md` | 避免单点断裂，摸清谁拍板、谁卡关、谁受益 | 绘制 EB（经济购买者）、UB（业务使用者）、TB（技术把关者）与 Coach（内部线人）4 类角色图谱，明确各自关注指标。 |
-| **02 顾问式 5 步诊断法**<br>`prompts/02_consultative_sales_engine.md` | 告别硬推产品，与客户共创解决方案 | 遵循“建立信任 $	o$ 痛点深挖 $	o$ 价值重构 $	o$ 方案共创 $	o$ 承诺闭环”，把技术特性转译为财务收益。 |
-| **03 核心异议化解矩阵**<br>`prompts/03_objection_handling_matrix.md` | 化解“预算冻结”、“友商便宜”、“无维护人力”推脱 | 识别真假异议，采用“接纳情绪 $	o$ 隔离疑虑 $	o$ 重新锚定商业代价”公式，打破僵局。 |
-| **04 跨部门产研协同协议**<br>`prompts/04_cross_team_leverage_protocol.md` | 避免产研推诿，争取产研核心资源支持 | 建立“客户商业收益-技术标杆价值”转译器，用标杆示范效应与可复用资产打动产品负责人。 |
+| **01 决策链穿透画像**<br>`prompts/01_decision_maker_mapping.md` | 穿透复杂科层制，绘制组织暗线网络 | 精准定位经济买家 (EB)、使用者 (UB)、技术把关人 (TB) 与内部线人 (Coach)，理清不同角色的核心利益诉求。 |
+| **02 顾问式 5 步诊断法**<br>`prompts/02_consultative_discovery_loop.md` | 摆脱推销标签，与客户高层平等对话 | 信任建立 → 痛点深挖 → 价值重塑 → 共创方案 → 承诺闭环，挖掘客户未言明的隐性商业代价。 |
+| **03 核心异议化解矩阵**<br>`prompts/03_high_stakes_objection_resolution.md` | 化解“预算冻结”、“友商低价”极限施压 | 预算冻结以轻量试点跑通即时现金流；低价竞争重锚全生命周期拥有成本 (TCO) 与隐性业务中断风险。 |
+| **04 跨部门产研协同协议**<br>`prompts/04_cross_team_rd_leverage.md` | 把内部研发转化为成单合力 | 将商业大单包装为行业标杆案例，绑定产品技术团队的晋升与业务战功，形成利益共同体。 |
 
 ---
 
@@ -53,62 +75,74 @@
 
 ---
 
-### 🥊 实战攻防对比：普通推销 vs 顾问式专家
+### 🌲 MEDDPPICC 商业成单矩阵与一页纸速查卡
 
-| 业务场景 | 普通推销员的习惯性应对 | 顾问式专家的实战打法 |
-| :--- | :--- | :--- |
-| **客户说：“你们太贵了，友商只要一半价格”** | 马上向主管申请打折，或者死磕产品参数“我们性能更好”。 | **重新锚定隐形成本**：“张总，友商价格确实很低，但在系统集成和后期迁移的隐形成本上，上季度某头部同行多耗费了 3 个月人力。我们是否可以复盘一下未来两年的综合拥有成本（TCO）？” |
-| **客户说：“最近大环境不好，预算冻结，下半年再说”** | 发微信客套：“好的张总，那下季度我再联系您。”从此失联。 | **转换汇报层级与代价**：“李总，理解贵司控制预算的要求。但如果不做流程升级，贵团队每个月在手工对账上的损耗约为 15 万元。是否需要我准备一份‘如何用当前项目在 Q3 节约 40 万运营成本’的高管报表，协助您向 CFO 申请专项创新预算？” |
-| **产研团队说：“业务需求太多，排期已满，这个定制做不了”** | 愤怒抱怨产研不给力，或者直接回绝客户。 | **转译标杆价值与复用度**：“王老师，这个客户是行业排名前三的龙头，这次需求的 70% 属于通用配置，做出来后可以直接复用到本季度另外 4 家大客户中，沉淀为标准模块，对我们下半年的产品线评优具有极强标杆价值。” |
+配备高清可打印矢量图与速查清单：
+- 📄 **一页纸核心速查卡**：[`cheatsheets/b2b_sales_cheatsheet.md`](cheatsheets/b2b_sales_cheatsheet.md)（MEDDPPICC 评估打分卡、三大高压异议重锚策略）
+- 📊 **矢量商业成单矩阵**：[`cheatsheets/meddppicc_deal_matrix.svg`](cheatsheets/meddppicc_deal_matrix.svg)
+
+<div align="center">
+  <img src="cheatsheets/meddppicc_deal_matrix.svg" alt="MEDDPPICC成单矩阵" width="100%" style="border-radius: 8px; border: 1px solid rgba(56,189,248,0.2);" />
+</div>
 
 ---
 
-### 📂 仓库核心资产目录
+### 🥊 实战攻防对比：普通推销 vs 顾问式专家
+
+| 客户施压场景 | 普通推销的被动应对 | 顾问式专家的重构破局 |
+| :--- | :--- | :--- |
+| **“我们内部技术团队已经自研了这套系统，不需要买外部产品。”** | 拼命比对功能：“我们的产品功能更多，界面更好看，每周都迭代，你们自研的很简陋……” | **研发人力与核心产能重锚**：“这恰恰证明该痛点在贵司有多关键。但自研往往长期占用核心研发 15-20% 的带宽做日常运维。若我们能替您接管繁杂维护并保留全面 API 扩展能力，帮研发团队释放 20% 产能全力投入 Q4 核心商业目标，您是否愿意一起评估这笔产能账？” |
+| **“某友商的产品跟你们差不多，报价比你们低 40%。”** | 惊慌让利：“如果您今天能签，我去向领导申请一个特殊折扣，也可以给您降价。” | **总拥有成本 (TCO) 与宕机保险**：“如果只看软件授权费，友商确实便宜。但大客户选择我们，买的从来不是几张 License，而是给每小时数十万损失的业务买一份高可用保险。如果把迁移成本、运维黑洞和潜在故障风险算进去，我们可以客观算一笔 3 年期总拥有成本（TCO）。” |
+
+---
+
+### 🤖 AI Coding Agent 原生就绪 (`llms.txt`)
+
+本项目全面适配 Claude Code、Cursor、GitHub Copilot 等 AI 编程助手：
+- **精选上下文规则**：将 [`llms.txt`](llms.txt) 引入 Cursor 规则库，自动审查你的商业方案与跨部门沟通话术。
+- **全量成单规格**：参考 [`llms-full.txt`](llms-full.txt) 模拟大客户高层对你的提案进行现场压力挑战。
+
+---
+
+### 📂 目录结构全览
 
 ```text
 enterprise-sales-persuasion-playbook/
 ├── assets/
-│   ├── hero_poster_zh.jpg           # Dropbox 风格中文商业封面
-│   ├── hero_poster_en.jpg           # 英文版商业封面
-│   ├── architecture_zh.svg          # 中文矢量系统架构图
-│   └── architecture.svg             # 英文矢量系统架构图
+│   ├── hero_poster_en.jpg           # 彭博深蓝英文技术封面海报 (1280x720)
+│   ├── hero_poster_zh.jpg           # 中文技术封面海报 (1280x720)
+│   ├── architecture.png             # 1280x640 全景商业架构蓝图
+│   └── architecture_zh.png          # 1280x640 中文架构蓝图
+├── cheatsheets/
+│   ├── b2b_sales_cheatsheet.md      # 一页纸速查卡 (MEDDPPICC 打分卡与异议重锚)
+│   └── meddppicc_deal_matrix.svg    # 可打印矢量 MEDDPPICC 成单矩阵
+├── cli/
+│   └── objection_simulator.py       # 交互式高压异议化解推演命令行工具
 ├── prompts/
-│   ├── 01_kp_decision_mapping.md    # 关键决策人画像与利益诉求探针
-│   ├── 02_consultative_sales_engine.md # 顾问式 5 步诊断实战工作台
-│   ├── 03_objection_handling_matrix.md # 4 大防御性异议反弹化解脚本
-│   └── 04_cross_team_leverage_protocol.md # 产研跨部门说服与利益绑定协议
+│   ├── 01_decision_maker_mapping.md # 决策链穿透画像工作台
+│   ├── 02_consultative_discovery_loop.md # 顾问式 5 步诊断法
+│   ├── 03_high_stakes_objection_resolution.md # 核心异议化解矩阵
+│   └── 04_cross_team_rd_leverage.md # 跨部门产研协同协议
 ├── templates/
-│   └── sales_schema.json            # 商机诊断与拜访记录标准 Schema
+│   └── meddppicc_scorecard.json     # 大客户商机成单资格打分模板
 ├── evals/
-│   └── rubric_100_sales.json        # 销售方案商业说服力量化评估准则
-├── docs/
-│   └── ARCHITECTURE.md              # 完整方法论推演白皮书
-├── examples/
-│   └── SHOWCASE_COMPARISON.md       # 真实复杂大单实战复盘与成单实录
-├── SKILL.md                         # Antigravity / Claude 智能体技能定义
-├── README_zh.md                     # 中文实战文档（当前文件）
-└── README.md                        # 英文版发布文档
+│   └── rubric_100_sales_persuasion.json # 100 分制顾问式说服评鉴基准
+├── llms.txt                         # AI Agent 规范
+├── llms-full.txt                    # 完整规范
+├── README.md                        # 英文说明文档
+└── README_zh.md                     # 中文说明文档 (当前文件)
 ```
 
 ---
 
-### 🚀 快速上手 (Quickstart)
+### 🌟 Star History & 社区
 
-可以直接将 `prompts/` 目录中的模块加载到任何主流 LLM 中辅助进行商机复盘：
+<p align="center">
+  <a href="https://star-history.com/#Daokexun/enterprise-sales-persuasion-playbook&Date">
+    <img src="https://api.star-history.com/svg?repos=Daokexun/enterprise-sales-persuasion-playbook&type=Date" alt="Star History Chart" width="100%">
+  </a>
+</p>
 
-```bash
-# 1. 克隆本仓库
-git clone https://github.com/Daokexun/enterprise-sales-persuasion-playbook.git
+### 📄 开源许可证与贡献
 
-# 2. 查阅关键决策人探针
-cat prompts/01_kp_decision_mapping.md
-
-# 3. 运行商机诊断示例
-# 输入客户行业、沟通记录与卡点，系统将自动输出 KP 图谱与破局路径
-```
-
----
-
-### 📄 开源许可与贡献
-
-本项目基于 [MIT License](LICENSE) 开源。欢迎一线销售专家、解决方案架构师提交真实脱敏案例与针对性异议化解脚本。贡献请遵循 [CONTRIBUTING.md](CONTRIBUTING.md)。
+本项目采用 [MIT License](LICENSE) 开源。欢迎各大厂大客户销售总监、解决方案架构师及商务伙伴共同参与共建，详见 [CONTRIBUTING.md](CONTRIBUTING.md)。

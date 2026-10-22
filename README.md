@@ -4,12 +4,21 @@
 
 <div align="center">
 
-<img src="assets/hero_poster_en.jpg" alt="B2B Consultative Sales & Cross-Functional Persuasion" width="100%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.06);" />
+<img src="assets/hero_poster_en.jpg" alt="Consultative Enterprise Sales & Persuasion Playbook" width="100%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.06);" />
 
-# B2B Consultative Sales & Cross-Functional Persuasion Playbook
-### Field-tested methodology distilled from 10-year Tencent Enterprise Sales lead Nick
+# Consultative Enterprise Sales & Persuasion Playbook
+### Grounded in 10-year Tencent Enterprise Sales lead Nick's multi-million dollar field mentorship
 
-**A structured framework for strategic enterprise discovery, stakeholder alignment, and engineering leverage.**
+**Penetrate enterprise stakeholder networks, master 5-step consultative discovery, resolve budget freezes, and leverage internal R&D alignment.**
+
+<p align="center">
+  <a href="https://github.com/Daokexun/enterprise-sales-persuasion-playbook/stargazers"><img src="https://img.shields.io/github/stars/Daokexun/enterprise-sales-persuasion-playbook?style=flat-square&logo=github&color=black" alt="GitHub Stars"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License"></a>
+  <a href="llms.txt"><img src="https://img.shields.io/badge/Claude%20Code-Skill%20Ready-EAB308?style=flat-square&logo=anthropic" alt="Claude Code Ready"></a>
+  <a href="cli/objection_simulator.py"><img src="https://img.shields.io/badge/CLI-Objection%20Lab-38BDF8?style=flat-square&logo=python" alt="CLI Simulator"></a>
+  <a href="cheatsheets/meddppicc_deal_matrix.svg"><img src="https://img.shields.io/badge/Matrix-Printable%20SVG-orange?style=flat-square" alt="Deal Matrix"></a>
+  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"></a>
+</p>
 
 </div>
 
@@ -17,35 +26,48 @@
 
 ### 📖 Editorial Background
 
-> **"Mastering enterprise sales is never about charismatic fast-talking. It is about diagnosing root business pains, understanding organizational incentives, and systematically removing friction across stakeholder chains."**  
-> — Nick (10-Year Tencent Enterprise Sales Lead)
+> **"Enterprise B2B sales is never about pitching features or software widgets; it is empowering the internal client champion to win their internal political and commercial agenda."**  
+> — Nick · 10-Year Tencent Enterprise Sales Lead (EP14)
 
-In complex B2B sales cycles and internal cross-functional alignment, teams consistently fall into three critical traps:
+In complex multi-million dollar enterprise commercial negotiations, sales and solution engineering teams face three critical bottlenecks:
 
-1. **Confusing Rapport with Progress**: Building great rapport with user-level contacts (Champions) while remaining completely invisible to the Economic Buyer (EB) who controls the budget, leading to sudden vetoes at procurement.
-2. **Feature Pitching Over Business Value**: Dumping a 50-slide deck on technical specs without first mapping the prospect's quarterly KPIs, operational bottlenecks, or board-level priorities.
-3. **Failing Internal Cross-Functional Buy-In**: Throwing unstructured client requests over the fence to product and engineering teams, only to get blocked by "no dev bandwidth."
+1. **The Feature Pitch Trap**: Reps pitch product specs to technical buyers without ever understanding the Economic Buyer's P&L drivers or the organizational Cost of Inaction (COI).
+2. **Objection Paralysis**: Crumbling under standard enterprise resistance ("We built an in-house tool", "Your competitor is 40% cheaper", "Our CFO froze budgets").
+3. **Internal Friction**: Treating internal engineering and product teams as delivery vendors rather than aligning commercial incentives into a unified closing force.
 
-This playbook abandons generic sales buzzwords. It reconstructs multi-million-dollar deal execution into a repeatable, four-stage framework: **Stakeholder Mapping, Consultative Discovery, High-Stakes Objection Handling, and Engineering Cross-Team Leverage**.
+This repository codifies the field-tested consultative sales methodology used across Tier-1 enterprise organizations: **MEDDPPICC Deal Governance, 5-Step Consultative Discovery, High-Stakes Objection Defense Labs, and Cross-Team R&D Leverage**.
+
+---
+
+### ⚡ Instant CLI Objection Defense Simulator
+
+Simulate high-stakes enterprise objections in under 15 seconds:
+
+```bash
+# 1. Clone repository
+git clone https://github.com/Daokexun/enterprise-sales-persuasion-playbook.git
+cd enterprise-sales-persuasion-playbook
+
+# 2. Run instant objection drill (Feature Pitch vs. Consultative Trusted Advisor)
+python cli/objection_simulator.py --simulate-objection
+```
 
 ---
 
 ### 🏛️ Four Core Pillars
 
-Modeled after modern SaaS resource centers and enterprise collaboration frameworks:
-
 | Pillar | Strategic Purpose | Core Execution Mechanism |
 | :--- | :--- | :--- |
-| **01 Stakeholder Mapping**<br>`prompts/01_kp_decision_mapping.md` | Prevent single-point failure across buyer committees | Maps the Economic Buyer (EB), User Buyer (UB), Technical Buyer (TB), and Internal Coach with explicit KPIs. |
-| **02 Consultative 5-Step Engine**<br>`prompts/02_consultative_sales_engine.md` | Co-design solutions tailored to board-level goals | Executes: "Establish Rapport $	o$ Uncover Pain $	o$ Reframe Value $	o$ Co-Design $	o$ Close Commitment." |
-| **03 Objection Handling Matrix**<br>`prompts/03_objection_handling_matrix.md` | Overcome "No Budget", "Competitor is Cheaper", "No Bandwidth" | Distinguishes brush-offs from real blockers; applies "Empathize $	o$ Isolate $	o$ Re-anchor Cost of Inaction." |
-| **04 Engineering Leverage Protocol**<br>`prompts/04_cross_team_leverage_protocol.md` | Align internal product and engineering roadmaps | Translates customer revenue impact into architectural showcase value, securing priority dev sprints. |
+| **01 Stakeholder Mapping Matrix**<br>`prompts/01_decision_maker_mapping.md` | Uncover organizational buying centers and political dynamics | Maps Economic Buyers (EB), User Buyers (UB), Technical Gatekeepers (TB), and internal Coaches. |
+| **02 5-Step Consultative Discovery**<br>`prompts/02_consultative_discovery_loop.md` | Transition from vendor pitch to trusted strategic advisor | 5-step framework: Provocative Insight → Latent Pain → Value Reframing → Co-creation → Mutual Action Plan. |
+| **03 High-Stakes Objection Defense**<br>`prompts/03_high_stakes_objection_resolution.md` | Neutralize budget freezes and competitor discounting | Re-anchors conversations to 3-year Total Cost of Ownership (TCO), maintenance developer capacity, and downtime risk. |
+| **04 Cross-Team R&D Leverage**<br>`prompts/04_cross_team_rd_leverage.md` | Transform internal engineering into your closing force | Bridges commercial realities with engineering roadmaps through lighthouse pilots and joint architect endorsements. |
 
 ---
 
-### 📐 System Architecture
+### 📐 System Architecture Matrix
 
-The following diagram illustrates the complete deal lifecycle from discovery to cross-functional realization:
+The following diagram illustrates the 4-layer commercial deal matrix:
 
 <div align="center">
   <img src="assets/architecture.png" alt="System Architecture Diagram" width="100%" />
@@ -53,13 +75,32 @@ The following diagram illustrates the complete deal lifecycle from discovery to 
 
 ---
 
-### 🥊 Tactical Breakdown: Amateur vs. Veteran Consultant
+### 🌲 MEDDPPICC Deal Matrix & 1-Page Cheatsheet
 
-| Sales Scenario | Amateur Approach | Consultative Veteran Playbook |
+Downloadable high-density printable vector artifacts for rapid review:
+- 📄 **1-Page Cheat Sheet**: [`cheatsheets/b2b_sales_cheatsheet.md`](cheatsheets/b2b_sales_cheatsheet.md) (MEDDPPICC inspection scorecard, 3 objection re-anchors)
+- 📊 **Vector Deal Matrix**: [`cheatsheets/meddppicc_deal_matrix.svg`](cheatsheets/meddppicc_deal_matrix.svg)
+
+<div align="center">
+  <img src="cheatsheets/meddppicc_deal_matrix.svg" alt="MEDDPPICC Deal Matrix" width="100%" style="border-radius: 8px; border: 1px solid rgba(56,189,248,0.2);" />
+</div>
+
+---
+
+### 🥊 Tactical Breakdown: Feature Vendor vs. Consultative Trusted Advisor
+
+| Client Pushback | Feature Vendor Pitch (Defensive) | Consultative Trusted Advisor (Value Reframe) |
 | :--- | :--- | :--- |
-| **"Your pricing is twice as high as Competitor X"** | Immediately panic, request discounts from manager, or debate technical spec numbers. | **Re-anchor Total Cost of Ownership (TCO)**: "Understood. Competitor X is indeed lower upfront. However, two tier-one peers discovered an additional 3 months of hidden migration costs last quarter. Shall we model out the full 2-year operational risk profile together?" |
-| **"Market conditions are tough; budgets are frozen until next year"** | Send a polite check-in text: "Understood, I'll follow up in Q4," resulting in deal death. | **Quantify Cost of Inaction (COI)**: "Understood on capital preservation. However, delaying this automation incurs approximately \$25,000/month in manual reconciliation waste. Would it help if we drafted an executive summary showing how this initiative yields \$60,000 in net Q3 savings to unlock innovation reserves?" |
-| **Engineering: "Our roadmap is packed; we can't build custom features"** | Complain about engineering bottlenecks or disappoint the customer. | **Frame Showcase Value & Reusability**: "70% of this request is architecturally generic. Delivering this unlocks a top-3 industry reference customer and standardizes modules for 4 pending pipeline deals, directly accelerating our H2 platform goals." |
+| **"Our engineering team already built an in-house tool; we don't need third-party vendors."** | Defensive argument: "Our tool has 50 more features, a much nicer UI, and we update weekly. Your in-house tool is outdated." | **Capacity Re-Anchoring**: "That proves how critical this problem is that you committed engineering headcount. Typically, engineering leaders tell us that maintaining custom internal tooling consumes 15-20% of senior developer bandwidth on bug fixes rather than customer-facing revenue features. If we offloaded that maintenance burden while preserving full API extensibility, would it be worth evaluating what that 20% capacity reallocation looks like on your Q4 product roadmap?" |
+| **"Your competitor is 40% cheaper on license price."** | Panic discount: "We can ask our VP for a special discount to match their price if you sign today." | **TCO & Outage Insurance**: "If license price were the only factor, that competitor would be the only vendor in the market. When enterprise clients choose our architecture, they aren't paying for software licenses; they are insuring against the $250k/hour downtime risk and hidden migration maintenance costs. Let's compare 3-year Total Cost of Ownership." |
+
+---
+
+### 🤖 AI Coding Agent Integration (`llms.txt`)
+
+This repository is optimized for autonomous coding agents (Claude Code, Cursor, GitHub Copilot).
+- **Curated Rules**: Feed [`llms.txt`](llms.txt) to your AI agent to audit your enterprise sales proposals and objection handling scripts.
+- **Full Specification**: Reference [`llms-full.txt`](llms-full.txt) for MEDDPPICC deal qualification rubrics.
 
 ---
 
@@ -68,44 +109,40 @@ The following diagram illustrates the complete deal lifecycle from discovery to 
 ```text
 enterprise-sales-persuasion-playbook/
 ├── assets/
-│   ├── hero_poster_en.jpg           # Dropbox-style English publication banner
-│   ├── hero_poster_zh.jpg           # Chinese publication banner
-│   ├── architecture.svg             # English vector architecture diagram
-│   └── architecture_zh.svg          # Chinese vector architecture diagram
+│   ├── hero_poster_en.jpg           # Sovereign Navy English publication banner (1280x720)
+│   ├── hero_poster_zh.jpg           # Chinese publication banner (1280x720)
+│   ├── architecture.png             # 1280x640 High-Density Commercial Architecture Blueprint
+│   └── architecture_zh.png          # 1280x640 Chinese Commercial Blueprint
+├── cheatsheets/
+│   ├── b2b_sales_cheatsheet.md      # 1-page high-density quick reference (MEDDPPICC)
+│   └── meddppicc_deal_matrix.svg    # Printable vector MEDDPPICC deal matrix
+├── cli/
+│   └── objection_simulator.py       # Interactive CLI High-Stakes Objection Simulator
 ├── prompts/
-│   ├── 01_kp_decision_mapping.md    # Key stakeholder diagnosis probes
-│   ├── 02_consultative_sales_engine.md # 5-step diagnostic discovery prompt
-│   ├── 03_objection_handling_matrix.md # High-stakes objection deconstruction
-│   └── 04_cross_team_leverage_protocol.md # Cross-functional engineering alignment
+│   ├── 01_decision_maker_mapping.md # Stakeholder mapping matrix (EB/UB/TB/Coach)
+│   ├── 02_consultative_discovery_loop.md # 5-step consultative discovery loop
+│   ├── 03_high_stakes_objection_resolution.md # High-stakes objection resolution lab
+│   └── 04_cross_team_rd_leverage.md # Cross-team R&D leverage & deal rooms
 ├── templates/
-│   └── sales_schema.json            # Opportunity assessment data schema
+│   └── meddppicc_scorecard.json     # Enterprise deal qualification scoring template
 ├── evals/
-│   └── rubric_100_sales.json        # 100-point persuasive defense rubric
-├── docs/
-│   └── ARCHITECTURE.md              # In-depth enterprise sales whitepaper
-├── examples/
-│   └── SHOWCASE_COMPARISON.md       # Real-world deal teardown and transcript analysis
-├── SKILL.md                         # Antigravity / Claude Agent Skill specification
+│   └── rubric_100_sales_persuasion.json # 100-point consultative sales audit matrix
+├── llms.txt                         # Curated AI Agent specification
+├── llms-full.txt                    # Comprehensive specification
 ├── README.md                        # English documentation (current file)
 └── README_zh.md                     # Chinese documentation
 ```
 
 ---
 
-### 🚀 Quickstart
+### 🌟 Star History & Community
 
-You can load these prompts directly into any LLM workbench to audit active sales pipelines:
-
-```bash
-# Clone the repository
-git clone https://github.com/Daokexun/enterprise-sales-persuasion-playbook.git
-
-# Inspect stakeholder alignment probes
-cat prompts/01_kp_decision_mapping.md
-```
-
----
+<p align="center">
+  <a href="https://star-history.com/#Daokexun/enterprise-sales-persuasion-playbook&Date">
+    <img src="https://api.star-history.com/svg?repos=Daokexun/enterprise-sales-persuasion-playbook&type=Date" alt="Star History Chart" width="100%">
+  </a>
+</p>
 
 ### 📄 License & Community
 
-This project is open-sourced under the [MIT License](LICENSE). Contributions from enterprise account executives, sales engineers, and product strategists are warmly welcomed via [CONTRIBUTING.md](CONTRIBUTING.md).
+This project is open-sourced under the [MIT License](LICENSE). Contributions from enterprise account executives, solutions architects, and consultative sales leaders are welcomed via [CONTRIBUTING.md](CONTRIBUTING.md).

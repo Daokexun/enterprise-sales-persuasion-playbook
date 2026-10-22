@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="100%" height="100%" style="background:#060D1E;font-family:'Segoe UI',system-ui,sans-serif;">
+  <defs>
+    <linearGradient id="p4BoxGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0C162E"/>
+      <stop offset="100%" stop-color="#111F3E"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Header -->
+  <text x="600" y="45" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" letter-spacing="1">SOVEREIGN B2B SALES MATRIX // COMMERCIAL DEAL BLUEPRINT</text>
+  <text x="600" y="75" text-anchor="middle" fill="#38BDF8" font-size="13" font-family="monospace" letter-spacing="2">GROUNDED IN 10-YEAR TENCENT SALES LEAD MENTORSHIP · ENTERPRISE PERSUASION</text>
+
+  <!-- 4 Pillars -->
+  <!-- Pillar 1 -->
+  <rect x="50" y="120" width="250" height="340" rx="8" fill="url(#p4BoxGrad)" stroke="rgba(56,189,248,0.2)" stroke-width="1.5"/>
+  <rect x="50" y="120" width="250" height="36" rx="8" fill="#EAB308"/>
+  <text x="175" y="144" text-anchor="middle" fill="#060D1E" font-size="12" font-family="monospace" font-weight="900">LAYER 01 // STAKEHOLDERS</text>
+  <text x="175" y="185" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700">Buying Center Map</text>
+  <text x="70" y="220" fill="#94A3B8" font-size="12">• EB (Economic Buyer ROI)</text>
+  <text x="70" y="245" fill="#94A3B8" font-size="12">• UB (User Experience DX)</text>
+  <text x="70" y="270" fill="#94A3B8" font-size="12">• TB (Tech Gatekeeper SLA)</text>
+  <text x="70" y="295" fill="#94A3B8" font-size="12">• Coach (Internal Champion)</text>
+  <rect x="65" y="380" width="220" height="60" rx="6" fill="#060D1E" stroke="rgba(56,189,248,0.2)"/>
+  <text x="175" y="405" text-anchor="middle" fill="#94A3B8" font-size="11" font-weight="600">DEAL GOAL</text>
+  <text x="175" y="425" text-anchor="middle" fill="#EAB308" font-size="12" font-weight="700">100% Politics Transparency</text>
+
+  <!-- Pillar 2 -->
+  <rect x="330" y="120" width="250" height="340" rx="8" fill="url(#p4BoxGrad)" stroke="rgba(56,189,248,0.2)" stroke-width="1.5"/>
+  <rect x="330" y="120" width="250" height="36" rx="8" fill="#EAB308"/>
+  <text x="455" y="144" text-anchor="middle" fill="#060D1E" font-size="12" font-family="monospace" font-weight="900">LAYER 02 // DISCOVERY</text>
+  <text x="455" y="185" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700">5-Step Consultative Discovery</text>
+  <text x="350" y="220" fill="#94A3B8" font-size="12">• Provocative insight challenge</text>
+  <text x="350" y="245" fill="#94A3B8" font-size="12">• Quantify Cost of Inaction ($)</text>
+  <text x="350" y="270" fill="#94A3B8" font-size="12">• Value reframe from features</text>
+  <text x="350" y="295" fill="#94A3B8" font-size="12">• Mutual Action Plan (MAP)</text>
+  <rect x="345" y="380" width="220" height="60" rx="6" fill="#060D1E" stroke="rgba(56,189,248,0.2)"/>
+  <text x="455" y="405" text-anchor="middle" fill="#94A3B8" font-size="11" font-weight="600">DEAL GOAL</text>
+  <text x="455" y="425" text-anchor="middle" fill="#EAB308" font-size="12" font-weight="700">Elevate to Trusted Advisor</text>
+
+  <!-- Pillar 3 -->
+  <rect x="610" y="120" width="250" height="340" rx="8" fill="url(#p4BoxGrad)" stroke="rgba(56,189,248,0.2)" stroke-width="1.5"/>
+  <rect x="610" y="120" width="250" height="36" rx="8" fill="#EAB308"/>
+  <text x="735" y="144" text-anchor="middle" fill="#060D1E" font-size="12" font-family="monospace" font-weight="900">LAYER 03 // OBJECTIONS</text>
+  <text x="735" y="185" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700">High-Stakes Objection Lab</text>
+  <text x="630" y="220" fill="#94A3B8" font-size="12">• In-house tool capacity re-anchor</text>
+  <text x="630" y="245" fill="#94A3B8" font-size="12">• 3-year TCO vs cheap price</text>
+  <text x="630" y="270" fill="#94A3B8" font-size="12">• Self-funding budget freeze test</text>
+  <text x="630" y="295" fill="#94A3B8" font-size="12">• Downtime insurance proof</text>
+  <rect x="625" y="380" width="220" height="60" rx="6" fill="#060D1E" stroke="rgba(56,189,248,0.2)"/>
+  <text x="735" y="405" text-anchor="middle" fill="#94A3B8" font-size="11" font-weight="600">DEAL GOAL</text>
+  <text x="735" y="425" text-anchor="middle" fill="#EAB308" font-size="12" font-weight="700">90%+ Win Rate on Hard Push</text>
+
+  <!-- Pillar 4 -->
+  <rect x="890" y="120" width="250" height="340" rx="8" fill="url(#p4BoxGrad)" stroke="rgba(56,189,248,0.2)" stroke-width="1.5"/>
+  <rect x="890" y="120" width="250" height="36" rx="8" fill="#EAB308"/>
+  <text x="1015" y="144" text-anchor="middle" fill="#060D1E" font-size="12" font-family="monospace" font-weight="900">LAYER 04 // R&amp;D LEVERAGE</text>
+  <text x="1015" y="185" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700">Cross-Team Deal Room</text>
+  <text x="910" y="220" fill="#94A3B8" font-size="12">• Align internal product DRI</text>
+  <text x="910" y="245" fill="#94A3B8" font-size="12">• Lighthouse benchmark pilots</text>
+  <text x="910" y="270" fill="#94A3B8" font-size="12">• Joint architect endorsement</text>
+  <text x="910" y="295" fill="#94A3B8" font-size="12">• High-yield ARR expansion</text>
+  <rect x="905" y="380" width="220" height="60" rx="6" fill="#060D1E" stroke="rgba(56,189,248,0.2)"/>
+  <text x="1015" y="405" text-anchor="middle" fill="#94A3B8" font-size="11" font-weight="600">DEAL GOAL</text>
+  <text x="1015" y="425" text-anchor="middle" fill="#EAB308" font-size="12" font-weight="700">Multi-Million Contract Lock</text>
+
+  <!-- Bottom Quote Bar -->
+  <rect x="50" y="490" width="1090" height="75" rx="8" fill="#0C162E" stroke="rgba(56,189,248,0.2)"/>
+  <text x="595" y="525" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">TENCENT B2B COMMERCIAL MAXIM</text>
+  <text x="595" y="548" text-anchor="middle" fill="#94A3B8" font-size="11.5">"Enterprise sales is not selling features; it is helping the client executive win their internal promotion and business metrics."</text>
+</svg>

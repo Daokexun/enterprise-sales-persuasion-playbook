@@ -1,0 +1,14 @@
+# Consultative Enterprise Sales Playbook & Persuasion Matrix (llms.txt)
+> The Sovereign Enterprise B2B Commercial Operating System: Grounded in 10-year Tencent Enterprise Sales lead Nick's field mentorship. Master stakeholder mapping (EB/UB/TB/Coach), 5-step consultative discovery, high-stakes objection defense, and cross-team R&D leverage.
+
+## Core Pillars & Prompts
+- [01 Stakeholder Mapping Matrix](prompts/01_decision_maker_mapping.md): Uncover organizational buying centers (Economic Buyer, User, Technical Gatekeeper, Coach).
+- [02 5-Step Consultative Discovery](prompts/02_consultative_discovery_loop.md): Rapport → Latent Pain → Value Reframe → Co-creation → Commitment.
+- [03 High-Stakes Objection Resolution](prompts/03_high_stakes_objection_resolution.md): Neutralizing budget freezes, in-house resistance, and price-war discounting.
+- [04 Cross-Team R&D Alignment](prompts/04_cross_team_rd_leverage.md): Transforming internal engineering and product leaders into strategic deal allies.
+
+## CLI Evaluation
+- `python cli/objection_simulator.py --simulate-objection`
+
+## Key Heuristic
+Enterprise sales is never about pitching features or software widgets; it is empowering the internal client champion to win their internal political and commercial agenda.
