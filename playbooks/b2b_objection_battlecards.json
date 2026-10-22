@@ -1,0 +1,38 @@
+[
+  {
+    "id": "OB-01",
+    "name": "Internal In-House Tooling",
+    "trigger_phrases": [
+      "Our engineering team already built this",
+      "We prefer to build internally",
+      "We have developer headcount to maintain this"
+    ],
+    "root_cause": "Engineering pride, NIH (Not Invented Here) syndrome, or misjudged maintenance costs.",
+    "reframe_strategy": "Acknowledge engineering competence, then pivot to hidden ongoing maintenance toil and lost opportunity cost on customer-facing revenue features.",
+    "talk_track": "That proves how critical this problem is to your leadership that you committed senior engineering headcount. Typically, engineering leaders tell us that maintaining custom internal tooling consumes 15-20% of senior developer bandwidth on bug fixes and maintenance rather than shipping customer-facing revenue features. If we could offload that maintenance burden while giving your engineers full API extensibility, would it be worth evaluating what that 20% capacity reallocation looks like on your Q4 product roadmap?"
+  },
+  {
+    "id": "OB-02",
+    "name": "Competitor Discounting",
+    "trigger_phrases": [
+      "Competitor X is 40% cheaper",
+      "Your price per seat is too high",
+      "We received a heavy discount from another vendor"
+    ],
+    "root_cause": "Commoditized feature comparison, lack of Cost of Inaction clarity.",
+    "reframe_strategy": "Never compete in a bottom-feeding price war. Re-anchor license price against 3-year Total Cost of Ownership (TCO), migration costs, and downtime risk.",
+    "talk_track": "If price per license were the only factor, that competitor would be the only vendor in the market. When enterprise clients choose our architecture, they aren't paying for software licenses; they are insuring against the $250k/hour downtime risk and hidden migration maintenance costs. Let's compare the 3-year Total Cost of Ownership (TCO) including migration engineering hours."
+  },
+  {
+    "id": "OB-03",
+    "name": "Total CFO Budget Freeze",
+    "trigger_phrases": [
+      "All new spending is frozen until next fiscal year",
+      "Our CFO locked all department budgets",
+      "No budget for new vendors"
+    ],
+    "root_cause": "Macro corporate cash-preservation directive.",
+    "reframe_strategy": "CFOs freeze expense lines, but aggressively approve self-amortizing projects that reduce existing operational waste or protect cash flows within the current period.",
+    "talk_track": "Understood. Typically, budget freezes apply to new speculative projects, but CFOs always approve initiatives that directly reduce operational waste or protect existing cash flows. If we launched a lightweight 30-day proof-of-value that pays for itself through immediate cloud egress savings before the fiscal year ends, would your leadership consider reviewing that self-funding business case?"
+  }
+]

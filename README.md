@@ -117,13 +117,20 @@ enterprise-sales-persuasion-playbook/
 │   ├── b2b_sales_cheatsheet.md      # 1-page high-density quick reference (MEDDPPICC)
 │   └── meddppicc_deal_matrix.svg    # Printable vector MEDDPPICC deal matrix
 ├── cli/
-│   └── objection_simulator.py       # Interactive CLI High-Stakes Objection Simulator
+│   ├── objection_simulator.py       # Interactive CLI High-Stakes Objection Simulator
+│   └── sales_call_analyzer.py       # Gong 43:57 Talk-Ratio & Buying Signals Call Analyzer
+├── playbooks/
+│   └── b2b_objection_battlecards.json # Machine-readable competitive objection battlecard registry
 ├── prompts/
 │   ├── 01_decision_maker_mapping.md # Stakeholder mapping matrix (EB/UB/TB/Coach)
 │   ├── 02_consultative_discovery_loop.md # 5-step consultative discovery loop
 │   ├── 03_high_stakes_objection_resolution.md # High-stakes objection resolution lab
 │   └── 04_cross_team_rd_leverage.md # Cross-team R&D leverage & deal rooms
+├── skills/
+│   └── meddppicc-deal-auditor/
+│       └── SKILL.md                 # GitLab Public Sales MEDDPPICC deal qualification skill
 ├── templates/
+│   ├── command_of_the_message_matrix.md # Force Management 4-column Value Matrix
 │   └── meddppicc_scorecard.json     # Enterprise deal qualification scoring template
 ├── evals/
 │   └── rubric_100_sales_persuasion.json # 100-point consultative sales audit matrix

@@ -117,13 +117,20 @@ enterprise-sales-persuasion-playbook/
 │   ├── b2b_sales_cheatsheet.md      # 一页纸速查卡 (MEDDPPICC 打分卡与异议重锚)
 │   └── meddppicc_deal_matrix.svg    # 可打印矢量 MEDDPPICC 成单矩阵
 ├── cli/
-│   └── objection_simulator.py       # 交互式高压异议化解推演命令行工具
+│   ├── objection_simulator.py       # 交互式高压异议化解推演命令行工具
+│   └── sales_call_analyzer.py       # Gong 43:57 通话发言比与采购信号探测器
+├── playbooks/
+│   └── b2b_objection_battlecards.json # 机器可读 B2B 异议化解作战卡库
 ├── prompts/
 │   ├── 01_decision_maker_mapping.md # 决策链穿透画像工作台
 │   ├── 02_consultative_discovery_loop.md # 顾问式 5 步诊断法
 │   ├── 03_high_stakes_objection_resolution.md # 核心异议化解矩阵
 │   └── 04_cross_team_rd_leverage.md # 跨部门产研协同协议
+├── skills/
+│   └── meddppicc-deal-auditor/
+│       └── SKILL.md                 # GitLab 公开销售指南 MEDDPPICC 资格审查技能
 ├── templates/
+│   ├── command_of_the_message_matrix.md # Force Management 价值交付 4 栏矩阵
 │   └── meddppicc_scorecard.json     # 大客户商机成单资格打分模板
 ├── evals/
 │   └── rubric_100_sales_persuasion.json # 100 分制顾问式说服评鉴基准
