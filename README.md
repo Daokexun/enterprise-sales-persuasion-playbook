@@ -4,7 +4,15 @@
 
 <div align="center">
 
-<img src="assets/hero_poster_en.jpg" alt="Consultative Enterprise Sales & Persuasion Playbook" width="100%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.06);" />
+<a href="assets/hero_motion_demo.mp4">
+  <img src="assets/hero_motion_preview.gif" alt="Consultative Enterprise Sales & Persuasion Playbook Dynamic Demo" width="100%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12);" />
+</a>
+
+<p align="center">
+  <em>⚡ Live Telemetry: 3D MEDDPPICC deal progression matrix, stakeholder vector alignment, and enterprise deal velocity</em>
+  <br>
+  <a href="assets/hero_motion_demo.mp4">▶ <b>Watch Full 10s HD 60fps Video (assets/hero_motion_demo.mp4)</b></a> · <a href="assets/hero_poster_en.jpg">🖼 Static Publication Poster</a>
+</p>
 
 # Consultative Enterprise Sales & Persuasion Playbook
 ### Grounded in 10-year Tencent Enterprise Sales lead Nick's multi-million dollar field mentorship
@@ -13,6 +21,7 @@
 
 <p align="center">
   <a href="https://github.com/Daokexun/enterprise-sales-persuasion-playbook/stargazers"><img src="https://img.shields.io/github/stars/Daokexun/enterprise-sales-persuasion-playbook?style=flat-square&logo=github&color=black" alt="GitHub Stars"></a>
+  <a href="assets/hero_motion_demo.mp4"><img src="https://img.shields.io/badge/Demo-HD%20Video-E11D48?style=flat-square&logo=youtube" alt="HD Video Demo"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License"></a>
   <a href="llms.txt"><img src="https://img.shields.io/badge/Claude%20Code-Skill%20Ready-EAB308?style=flat-square&logo=anthropic" alt="Claude Code Ready"></a>
   <a href="cli/objection_simulator.py"><img src="https://img.shields.io/badge/CLI-Objection%20Lab-38BDF8?style=flat-square&logo=python" alt="CLI Simulator"></a>
@@ -109,6 +118,8 @@ This repository is optimized for autonomous coding agents (Claude Code, Cursor, 
 ```text
 enterprise-sales-persuasion-playbook/
 ├── assets/
+│   ├── hero_motion_demo.mp4         # 10s 60fps HD MEDDPPICC deal progression video
+│   ├── hero_motion_preview.gif      # Lightweight looping animated preview
 │   ├── hero_poster_en.jpg           # Sovereign Navy English publication banner (1280x720)
 │   ├── hero_poster_zh.jpg           # Chinese publication banner (1280x720)
 │   ├── architecture.png             # 1280x640 High-Density Commercial Architecture Blueprint
